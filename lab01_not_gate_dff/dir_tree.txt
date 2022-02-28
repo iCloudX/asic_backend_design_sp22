@@ -1,0 +1,89 @@
+.
+├── dir_tree.txt
+├── fm
+│   ├── post
+│   └── pre
+│       ├── clean.sh
+│       ├── formality.tcl
+│       ├── Makefile
+│       ├── run_fm
+│       └── run_formality
+├── pnr
+├── sim
+│   ├── func_sim
+│   │   ├── Makefile
+│   │   ├── novas.conf
+│   │   ├── novas.rc
+│   │   ├── run.f
+│   │   ├── run.sh
+│   │   ├── run_verdi.sh
+│   │   ├── signal.rc
+│   │   └── sim_define.v
+│   ├── post_sim
+│   │   └── readme
+│   └── pre_sim
+│       ├── Makefile
+│       ├── novas.conf
+│       ├── novas.rc
+│       ├── run.f
+│       ├── run.sh
+│       ├── run_verdi.sh
+│       ├── signal.rc
+│       ├── sim_define.v
+│       └── verdi_config_file
+├── src
+│   ├── netlist
+│   │   ├── post
+│   │   │   └── readme
+│   │   └── pre
+│   │       └── readme
+│   └── rtl
+│       └── not_with_dff.v
+├── sta
+│   ├── post
+│   │   └── readme
+│   └── pre
+│       ├── clean.sh
+│       ├── Makefile
+│       ├── output
+│       │   └── not_with_dff.sdf_pt
+│       ├── pt_shell_command.log
+│       ├── run_pt.sh
+│       ├── script
+│       │   └── pt.tcl
+│       └── sdc
+│           └── not_with_dff.sdc
+├── syn
+│   ├── alib-52
+│   │   ├── hgi1113tp1_wci.db.alib
+│   │   └── m18gm180s_wci.db.alib
+│   ├── command.log
+│   ├── Makefile
+│   ├── not_with_dff.svf
+│   ├── output
+│   │   ├── not_with_dff.gate.v
+│   │   ├── not_with_dff.mapped.ddc
+│   │   ├── not_with_dff.sdc
+│   │   └── not_with_dff.sdf_dc
+│   ├── rpt
+│   │   ├── 0_link.rpt
+│   │   ├── 10_report_clock.rpt
+│   │   ├── 1_check_design.rpt
+│   │   ├── 3_check_timing.rpt
+│   │   ├── 4_report_port.rpt
+│   │   ├── 5_compile.rpt
+│   │   ├── 6_report_constraint.rpt
+│   │   ├── 7_report_timing.rpt
+│   │   ├── 8_report_path_group.rpt
+│   │   └── 9_report_area.rpt
+│   ├── run_synthesis
+│   ├── script
+│   │   └── script.tcl
+│   └── work
+│       ├── NOT_WITH_DFF.mr
+│       ├── not_with_dff-verilog.pvl
+│       └── not_with_dff-verilog.syn
+└── testbench
+    └── testbench.v
+
+26 directories, 60 files
