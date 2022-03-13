@@ -4,7 +4,7 @@ Course for ASIC Design (Back-End) in 2022
 ## 수업정보
 - 오프라인 수업(이론 및 실습)
 
-## 팀티칭
+## Teaching 
 - Learn Synopsys EDA & ASIC design flow
   + VCS: Simulator
   + Verdi: Waveform viewer
