@@ -87,3 +87,5 @@
     └── testbench.v
 
 26 directories, 60 files
+
+rsync -avzh -e "ssh -p 16022" user@117.16.175.176:/home/user/PDK .
