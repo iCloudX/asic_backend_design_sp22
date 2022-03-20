@@ -4,9 +4,9 @@
 
 set search_path "$search_path \
         ../src/rtl \
-        ../PDK/FE/Synopsys_DB \
-        ../PDK/FE/Synopsys_DB/m18gm180s_synopsysdb_111206 \
-        ../PDK/FE/Synopsys_DB/hgi1113tp1_040926/db \
+        ../../../PDK/FE/Synopsys_DB \
+        ../../../PDK/FE/Synopsys_DB/m18gm180s_synopsysdb_111206 \
+        ../../../PDK/FE/Synopsys_DB/hgi1113tp1_040926/db \
 "
 
 set target_library   "m18gm180s_wci.db"
