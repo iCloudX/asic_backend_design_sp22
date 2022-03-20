@@ -1,0 +1,50 @@
+.
+|-- dir_tree.txt
+|-- formality
+|   `-- pre
+|-- sim
+|   |-- func_sim
+|   |   |-- Makefile
+|   |   |-- novas.conf
+|   |   |-- novas.rc
+|   |   |-- run.f
+|   |   |-- run.sh
+|   |   |-- run_verdi.sh
+|   |   |-- signal.rc
+|   |   `-- sim_define.v
+|   |-- post_sim
+|   |   `-- readme
+|   `-- pre_sim
+|       |-- Makefile
+|       |-- novas.conf
+|       |-- novas.rc
+|       |-- run.f
+|       |-- run.sh
+|       |-- run_verdi.sh
+|       |-- signal.rc
+|       `-- sim_define.v
+|-- src
+|   |-- netlist
+|   |   |-- post
+|   |   |   `-- readme
+|   |   `-- pre
+|   |       |-- pad_TOP_gate.v
+|   |       `-- readme
+|   `-- rtl
+|       |-- full_adder.v
+|       `-- ripple_carry_adder.v
+|-- sta
+|   |-- post
+|   |   `-- readme
+|   `-- pre
+|-- syn
+|   |-- Makefile
+|   |-- cons
+|   |   `-- TOP.con
+|   |-- run_synthesis
+|   `-- script
+|       `-- script.tcl
+`-- testbench
+    `-- testbench.v
+
+18 directories, 29 files
