@@ -1,0 +1,13 @@
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#  Library Setup
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+set search_path "$search_path \
+        ../src/rtl \
+        /home/user/projects/2022_spring/PDK/FE/Synopsys_DB \
+        /home/user/projects/2022_spring/PDK/FE/Synopsys_DB/m18gm180s_synopsysdb_111206 \
+        /home/user/projects/2022_spring/PDK/FE/Synopsys_DB/hgi1113tp1_040926/db \
+"
+
+set target_library   "m18gm180s_wci.db"
+set link_library     "* $target_library hgi1113tp1_wci.db"

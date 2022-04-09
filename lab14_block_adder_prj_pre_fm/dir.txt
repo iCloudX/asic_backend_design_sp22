@@ -1,0 +1,60 @@
+.
+├── dir.txt
+├── formality
+│   ├── post
+│   └── pre
+│       ├── clean.sh
+│       ├── formality_auto.tcl
+│       ├── formality.tcl
+│       ├── formality.tcl.bak
+│       ├── Makefile
+│       └── run_formality
+├── layout
+├── sim
+│   ├── func_sim
+│   │   ├── Makefile
+│   │   ├── novas.conf
+│   │   ├── novas.rc
+│   │   ├── run.f
+│   │   ├── run.sh
+│   │   ├── run_verdi.sh
+│   │   ├── signal.rc
+│   │   └── sim_define.v
+│   ├── post_sim
+│   └── pre_sim
+├── src
+│   ├── netlist
+│   │   ├── post
+│   │   │   └── readme
+│   │   └── pre
+│   │       ├── pad_TOP_gate.v
+│   │       └── readme
+│   └── rtl
+│       ├── adder_top.v
+│       ├── carry_lookahead_adder_16.v
+│       ├── cla_4bit.v
+│       ├── cla_logic.v
+│       ├── full_adder.v
+│       ├── pad_TOP_no_powerpad.v
+│       ├── pad_TOP.v
+│       └── ripple_carry_adder_16.v
+├── sta
+│   ├── post
+│   └── pre
+│       ├── clean.sh
+│       ├── Makefile
+│       ├── run_pt.sh
+│       └── script
+│           └── pt.tcl
+├── StarRC
+├── syn
+│   ├── cons
+│   │   └── TOP.con
+│   ├── Makefile
+│   ├── run_synthesis
+│   └── script
+│       └── script.tcl
+└── testbench
+    └── testbench.v
+
+22 directories, 35 files
