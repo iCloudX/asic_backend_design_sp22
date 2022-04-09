@@ -1,0 +1,81 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -physical
+        -derate
+        -input_pins
+        -nets
+        -max_paths 1
+        -transition_time
+        -crosstalk_delta
+        -capacitance
+Design : adder_top
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 13:57:31 2022
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: fast   Library: m18gm180s_wci
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 0/25/125
+
+Information: Percent of Arnoldi-based delays = 22.44%
+
+  Startpoint: b_reg_d_reg_6_
+              (rising edge-triggered flip-flop clocked by MAIN_CLOCK)
+  Endpoint: b_reg_d2_reg_6_
+            (rising edge-triggered flip-flop clocked by MAIN_CLOCK)
+  Path Group: MAIN_CLOCK
+  Path Type: min
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+
+  Point                        Fanout       Cap     DTran     Trans     Delta     Derate      Incr       Path      Location / Load        Attributes
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  clock MAIN_CLOCK (rise edge)                                                              0.0000     0.0000
+  clk (in)                                                   0.0000                         0.0000 @   0.0000 r    ( 0.00,180.22)
+  clk (net)                      1       0.0366                                             0.0000     0.0000 r    [0.01,0.04]            d 
+  CLKINVX8_G1B2I1/A (INVX8)                        0.0000    0.0047    0.0000               0.0017 @   0.0017 r    (129.32,183.04)        d 
+  CLKINVX8_G1B2I1/Y (INVX8)                                  0.1137                         0.0386 @   0.0402 f    (130.75,182.68)        d 
+  clk_G1B1I1 (net)               4       0.1004                                             0.0000     0.0402 f    [0.02,0.10]            d 
+  CLKINVX8_G1B1I2/A (INVX8)                        0.0000    0.1137    0.0000               0.0049 @   0.0451 f    (203.24,223.37)        d 
+  CLKINVX8_G1B1I2/Y (INVX8)                                  0.2875                         0.0890 @   0.1341 r    (204.67,223.00)        d 
+  clk_G1B2I2 (net)              30       0.1272                                             0.0000     0.1341 r    [0.04,0.13]            d 
+  b_reg_d_reg_6_/CK (DFFRHQX1)                     0.0000    0.2879    0.0000               0.0051 @   0.1392 r    (222.25,248.80)
+  b_reg_d_reg_6_/CK (DFFRHQX1)                     0.0000    0.2879    0.0000               0.0000     0.1392 r    (222.25,248.80)
+  b_reg_d_reg_6_/Q (DFFRHQX1)                                0.1044                         0.1933     0.3324 f    (234.56,248.92)
+  b_reg_d[6] (net)               1       0.0026                                             0.0000     0.3324 f    [0.00,0.00]
+  b_reg_d2_reg_6_/D (DFFRHQX1)                     0.0000    0.1044    0.0000               0.0001 &   0.3325 f    (238.17,249.61)
+  data arrival time                                                                                    0.3325
+
+  clock MAIN_CLOCK (rise edge)                                                              0.0000     0.0000
+  clk (in)                                                   0.0000                         0.0000 @   0.0000 r    ( 0.00,180.22)
+  clk (net)                      1       0.0366                                             0.0000     0.0000 r    [0.01,0.04]            d 
+  CLKINVX8_G1B2I1/A (INVX8)                        0.0000    0.0047    0.0000               0.0017 @   0.0017 r    (129.32,183.04)        d 
+  CLKINVX8_G1B2I1/Y (INVX8)                                  0.1137                         0.0386 @   0.0402 f    (130.75,182.68)        d 
+  clk_G1B1I1 (net)               4       0.1004                                             0.0000     0.0402 f    [0.02,0.10]            d 
+  CLKINVX8_G1B1I2/A (INVX8)                        0.0000    0.1137    0.0000               0.0049 @   0.0451 f    (203.24,223.37)        d 
+  CLKINVX8_G1B1I2/Y (INVX8)                                  0.2875                         0.0890 @   0.1341 r    (204.67,223.00)        d 
+  clk_G1B2I2 (net)              30       0.1272                                             0.0000     0.1341 r    [0.04,0.13]            d 
+  b_reg_d2_reg_6_/CK (DFFRHQX1)                    0.0000    0.2879    0.0000               0.0051 @   0.1392 r    (237.43,248.80)
+  b_reg_d2_reg_6_/CK (DFFRHQX1)                                                             0.0000     0.1392 r
+  library hold time                                                                         0.0584     0.1976
+  data required time                                                                                   0.1976
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                   0.1976
+  data arrival time                                                                                   -0.3325
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                          0.1350
+
+
+1

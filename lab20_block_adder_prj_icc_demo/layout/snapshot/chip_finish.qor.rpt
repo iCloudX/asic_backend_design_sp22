@@ -1,0 +1,87 @@
+ 
+****************************************
+Report : qor
+Design : adder_top
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 13:57:31 2022
+****************************************
+
+
+  Timing Path Group 'MAIN_CLOCK'
+  -----------------------------------
+  Levels of Logic:            32.0000
+  Critical Path Length:        4.9895
+  Critical Path Slack:         0.4686
+  Critical Path Clk Period:    6.0000
+  Total Negative Slack:        0.0000
+  No. of Violating Paths:      0.0000
+  Worst Hold Violation:        0.0000
+  Total Hold Violation:        0.0000
+  No. of Hold Violations:      0.0000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         37
+  Hierarchical Port Count:        600
+  Leaf Cell Count:                420
+  Buf/Inv Cell Count:              64
+  Buf Cell Count:                  19
+  Inv Cell Count:                  45
+  CT Buf/Inv Cell Count:            5
+  Combinational Cell Count:       288
+  Sequential Cell Count:          132
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:       4770.0576
+  Noncombinational Area:    9220.7809
+  Buf/Inv Area:              618.7104
+  Total Buffer Area:         252.8064
+  Total Inverter Area:       365.9040
+  Macro/Black Box Area:        0.0000
+  Net Area:                    4.4224
+  Net XLength        :      8507.4307
+  Net YLength        :     11678.0947
+  -----------------------------------
+  Cell Area:               13990.8385
+  Design Area:             13995.2609
+  Net Length        :      20185.5254
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           457
+  Nets With Violations:             1
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  Max Fanout Violations:            1
+  -----------------------------------
+
+
+  Hostname: deeppc
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                  0.0000
+  Logic Optimization:                0.0000
+  Mapping Optimization:              0.1409
+  -----------------------------------------
+  Overall Compile Time:              0.1631
+  Overall Compile Wall Clock Time:   0.1688
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.0000  TNS: 0.0000  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.0000  TNS: 0.0000  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : net fanout
+        -threshold 10
+Design : adder_top
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 13:57:31 2022
+****************************************
+
+
+Operating Conditions: slow   Library: m18gm180s_wci
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+adder_top              HYUNDAI18_Conservative
+                                         m18gm180s_wci
+
+
+Attributes:
+   dr - drc disabled
+    c - annotated capacitance
+    d - dont_touch
+    i - ideal_net
+    I - ideal_network
+    p - includes pin load
+    r - annotated resistance
+    h - high fanout
+
+Net                 Fanout   Attributes   Capacitance   Driver
+--------------------------------------------------------------------------------
+n2                      55   c                0.26      U2/Y
+n1                      43   c                0.21      U1/Y
+clk_G1B2I1              31   c, d             0.13      CLKINVX8_G1B1I1/Y
+clk_G1B2I4              36   c, d             0.15      INVX8_G1B1I4/Y
+clk_G1B2I3              35   c, d             0.14      INVX8_G1B1I3/Y
+clk_G1B2I2              30   c, d             0.13      CLKINVX8_G1B1I2/Y
+rst_n                   36   c                0.20      rst_n
+1

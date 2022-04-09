@@ -1,0 +1,92 @@
+.
+├── dir.txt
+├── formality
+│   ├── post
+│   └── pre
+│       ├── clean.sh
+│       ├── formality_auto.tcl
+│       ├── formality.tcl
+│       ├── formality.tcl.bak
+│       ├── Makefile
+│       └── run_formality
+├── layout
+│   ├── icc_scripts
+│   │   ├── 00_read_design.tcl
+│   │   ├── 01_floorplan_init.tcl
+│   │   ├── 01_floorplan.tcl
+│   │   ├── 02_powerplan_init.tcl
+│   │   ├── 02_powerplan.tcl
+│   │   ├── 03_cts_route_init.tcl
+│   │   ├── 03_cts_route.tcl
+│   │   ├── 04_chip_finish_init.tcl
+│   │   └── 04_chip_finish.tcl
+│   ├── Makefile
+│   ├── tdf
+│   │   ├── adder_top2.tdf
+│   │   └── adder_top.tdf
+│   ├── user_data
+│   │   ├── adder_top.gate.v
+│   │   ├── adder_top.pnr_chip_finish.sdc
+│   │   ├── adder_top.pnr_cts.sdc
+│   │   ├── adder_top.pnr.sdc
+│   │   └── adder_top.sdc
+│   └── user_scripts
+│       ├── common_lib_setup.tcl
+│       └── user_design_setup.tcl
+├── sim
+│   ├── func_sim
+│   │   ├── Makefile
+│   │   ├── novas.conf
+│   │   ├── novas.rc
+│   │   ├── run.f
+│   │   ├── run.sh
+│   │   ├── run_verdi.sh
+│   │   ├── signal.rc
+│   │   └── sim_define.v
+│   ├── post_sim
+│   └── pre_sim
+│       ├── Makefile
+│       ├── novas.conf
+│       ├── novas.rc
+│       ├── run.f
+│       ├── run.sh
+│       ├── run_verdi.sh
+│       ├── signal.rc
+│       ├── sim_define.v
+│       └── verdi_config_file
+├── src
+│   ├── netlist
+│   │   ├── post
+│   │   │   └── readme
+│   │   └── pre
+│   │       ├── pad_TOP_gate.v
+│   │       └── readme
+│   └── rtl
+│       ├── adder_top.v
+│       ├── carry_lookahead_adder_16.v
+│       ├── cla_4bit.v
+│       ├── cla_logic.v
+│       ├── full_adder.v
+│       ├── pad_TOP_no_powerpad.v
+│       ├── pad_TOP.v
+│       └── ripple_carry_adder_16.v
+├── sta
+│   ├── post
+│   └── pre
+│       ├── clean.sh
+│       ├── Makefile
+│       ├── run_pt.sh
+│       └── script
+│           └── pt.tcl
+├── StarRC
+├── syn
+│   ├── cons
+│   │   └── TOP.con
+│   ├── Makefile
+│   ├── run_synthesis
+│   └── script
+│       └── script.tcl
+└── testbench
+    └── testbench.v
+
+26 directories, 63 files

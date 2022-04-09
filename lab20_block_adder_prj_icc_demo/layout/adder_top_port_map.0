@@ -1,0 +1,6 @@
+guide_constraints -body { u2_cla16 } -equivalent { u2_cla16/rst_n    u2_cla16/IN0 }
+guide_constraints -body { u1_cla16 } -equivalent { u1_cla16/rst_n    u1_cla16/IN0   u1_cla16/IN1 }
+guide_constraints -body { u_rca16 } -equivalent { u_rca16/rst_n    u_rca16/IN0   u_rca16/IN1 }
+
+#-------------------------------------------------------------------
+

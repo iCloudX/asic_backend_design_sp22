@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -physical
+        -derate
+        -input_pins
+        -nets
+        -slack_lesser_than 0.0100
+        -max_paths 100
+        -transition_time
+        -capacitance
+Design : adder_top
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 13:57:31 2022
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: slow   Library: m18gm180s_wci
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 0/25/125
+
+Information: Percent of Arnoldi-based delays = 22.44%
+No paths.
+
+1

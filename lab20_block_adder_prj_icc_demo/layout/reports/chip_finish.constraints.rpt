@@ -1,0 +1,31 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'MAIN_CLOCK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'MAIN_CLOCK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'MAIN_CLOCK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'MAIN_CLOCK' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : adder_top
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 13:57:31 2022
+****************************************
+
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 0/25/125
+
+   max_fanout
+
+                             Required        Actual
+   Net                        Fanout         Fanout          Slack
+   -----------------------------------------------------------------
+   rst_n                      4.0000        36.0000       -32.0000  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      1               -32.0000  
+
+1
