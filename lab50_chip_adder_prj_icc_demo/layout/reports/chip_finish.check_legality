@@ -1,0 +1,359 @@
+
+Warning: Cell 'pad16' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad17' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad18' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad19' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad20' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad21' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad22' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad23' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad28' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad29' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad30' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad31' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad32' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad33' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad34' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad35' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad36' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad37' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad38' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad39' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad40' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad45' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad46' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad47' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad48' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad49' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad50' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad51' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad52' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad53' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad54' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad55' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad56' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad57' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad62' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad63' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad64' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad65' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad66' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad67' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad68' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad1' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad2' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad3' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad4' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad5' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad6' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad11' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad12' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad13' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad14' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'pad15' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+  Loading design 'pad_TOP'
+
+
+Information: The design has 334 physical cells. (PSYN-105)
+[begin initializing data for legality checker]
+
+Initializing Data Structure ...
+INFO: legalizer_via_spacing_check_mode 0
+  Reading technology information ...
+    Technology table contains 5 routable metal layers
+    Top most routable layer is set to be metal4
+    This is considered as a 4-metal-layer design
+    Reading library information from DB ...
+  Reading misc information ...
+    array <unit> has 0 vertical and 159 horizontal rows
+    37 pre-routes for placement blockage/checking
+    239 pre-routes for map congestion calculation
+  Checking information read in ...
+    design style = Horizontal masters, Horizontal rows
+
+  Preprocessing design ...
+    splitting rows by natural obstacles ...
+... design style 0
+... number of base array 1 0
+INFO:... use original rows...
+[end initializing data for legality checker]
+ 
+****************************************
+  Report : Chip Summary
+  Design : pad_TOP
+  Version: P-2019.03-SP5-5
+  Date   : Sat Apr  9 14:46:32 2022
+****************************************
+Std cell utilization: 2.18%  (4224/(193821-0))
+(Non-fixed + Fixed)
+Chip area:            193821   sites, bbox (435.00 435.00 1239.54 1236.36) um
+Std cell area:        4224     sites, (non-fixed:4132   fixed:92)
+                      413      cells, (non-fixed:399    fixed:14)
+Macro cell area:      0        sites
+                      0        cells
+Placement blockages:  0        sites, (excluding fixed std cells)
+                      0        sites, (include fixed std cells & chimney area)
+                      0        sites, (complete p/g net blockages)
+Routing blockages:    0        sites, (partial p/g net blockages)
+                      0        sites, (routing blockages and signal pre-route)
+Lib cell count:       14 
+Avg. std cell width:  4.24 um 
+Site array:           unit     (width: 0.66 um, height: 5.04 um, rows: 159)
+Physical DB scale:    1000 db_unit = 1 um 
+
+ 
+****************************************
+  Report : pnet options
+  Design : pad_TOP
+  Version: P-2019.03-SP5-5
+  Date   : Sat Apr  9 14:46:32 2022
+****************************************
+
+
+--------------------------------------------------------------------
+Layer      Blockage   Min_width   Min_height   Via_additive     Density
+--------------------------------------------------------------------
+MET1       none          ---         ---       via additive      ---
+MET2       none          ---         ---       via additive      ---
+MET3       none          ---         ---       via additive      ---
+MET4       none          ---         ---       via additive      ---
+MET5       none          ---         ---       via additive      ---
+Warning: I/O port (a_in[1]) is placed at (-6154,1334502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[0]) is placed at (-6154,1405502) which is outside die area. (PSYN-520)
+Warning: I/O port (rst_n) is placed at (-6154,695502) which is outside die area. (PSYN-520)
+Warning: I/O port (clk) is placed at (-6154,1050502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[9]) is placed at (-6154,340502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[8]) is placed at (-6154,411502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[7]) is placed at (-6154,482502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[6]) is placed at (-6154,553502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[5]) is placed at (-6154,624502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[4]) is placed at (-6154,1121502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[3]) is placed at (-6154,1192502) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[2]) is placed at (-6154,1263502) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[1]) is placed at (979498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[0]) is placed at (624498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[15]) is placed at (553498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[14]) is placed at (482498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[13]) is placed at (411498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[12]) is placed at (340498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[11]) is placed at (269498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (a_in[10]) is placed at (-6154,269502) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[9]) is placed at (1681154,340498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[8]) is placed at (1681154,269498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[7]) is placed at (1405498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[6]) is placed at (1334498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[5]) is placed at (1263498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[4]) is placed at (1192498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[3]) is placed at (1121498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[2]) is placed at (1050498,-6154) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[0]) is placed at (1681307,1192495) which is outside die area. (PSYN-520)
+Warning: I/O port (carry_in) is placed at (1681154,1121498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[15]) is placed at (1681154,1050498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[14]) is placed at (1681154,979498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[13]) is placed at (1681154,624498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[12]) is placed at (1681154,553498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[11]) is placed at (1681154,482498) which is outside die area. (PSYN-520)
+Warning: I/O port (b_in[10]) is placed at (1681154,411498) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[8]) is placed at (1121505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[7]) is placed at (1192505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[6]) is placed at (1263505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[5]) is placed at (1334505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[4]) is placed at (1405505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[3]) is placed at (1681307,1405495) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[2]) is placed at (1681307,1334495) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[1]) is placed at (1681307,1263495) which is outside die area. (PSYN-520)
+Warning: I/O port (carry_out) is placed at (269505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[15]) is placed at (340505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[14]) is placed at (411505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[13]) is placed at (482505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[12]) is placed at (553505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[11]) is placed at (624505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[10]) is placed at (695505,1681307) which is outside die area. (PSYN-520)
+Warning: I/O port (sum_out[9]) is placed at (1050505,1681307) which is outside die area. (PSYN-520)
+Warning: Die area is not integer multiples of min site height (5040), object's width and height(1675000,1675000). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (660), object's width and height(1675000,1675000). (PSYN-523)
+Warning: Cell pad15 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad15 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad14 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad14 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad13 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad13 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad12 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad12 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad11 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad11 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad6 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad6 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad5 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad5 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad4 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad4 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad3 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad3 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad2 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad2 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad1 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad1 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad68 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad68 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad67 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad67 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad66 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad66 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad65 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad65 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad64 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad64 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad63 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad63 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad62 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad62 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad57 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad57 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad56 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad56 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad55 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad55 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad54 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad54 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad53 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad53 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad52 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad52 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad51 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad51 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad50 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad50 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad49 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad49 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad48 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad48 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad47 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad47 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad46 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad46 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad45 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad45 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad40 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad40 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad39 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad39 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad38 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad38 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad37 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad37 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad36 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad36 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad35 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad35 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad34 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad34 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad33 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad33 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad32 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad32 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad31 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad31 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad30 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad30 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad29 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad29 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad28 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad28 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad23 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad23 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad22 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad22 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad21 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad21 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad20 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad20 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad19 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad19 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad18 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad18 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad17 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad17 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+Warning: Cell pad16 is not integer multiples of min site width (660), object's width and height(40000,235000). (PSYN-523)
+Warning: Cell pad16 is not integer multiples of min site height (5040), object's width and height(235000,235000). (PSYN-523)
+
+**************************************************** 
+Check_legality: Report for Fixed Placement Cells
+**************************************************** 
+(fixed placement) Cells Not on Row            : 0
+(fixed placement) Cell Overlaps               : 0
+(fixed placement) Cells overlapping blockages : 0
+(fixed placement) Orientation Violations      : 0
+(fixed placement) Site Violations             : 0
+(fixed placement) Power Strap Violations      : 0
+****************************************************** 
+
+****************************************************** 
+Check_legality: Report for Non-fixed Placement Cells
+****************************************************** 
+Number of Cells Not on Row            : 0
+Number of Cell Overlaps               : 0
+Number of Cells overlapping blockages : 0
+Number of Orientation Violations      : 0
+Number of Site Violations             : 0
+Number of Power Strap Violations      : 0
+Number of Pads/ports outside die area : 52
+******************************************** 
+
+  Total moveable cell area: 13744.7
+  Total fixed cell area: 489106.1
+  Total physical cell area: 502850.7
+  Core area: (435000 435000 1239540 1236360)
+1

@@ -1,0 +1,3 @@
+LIBRARY    ./mdb/pad_TOP_cts_route
+  REFERENCE    /home/user/projects/2022_spring/PDK/BE/Astro_FRAM/m18gm180s_astrofram_150724/STD/m18gm180s_5lm
+  REFERENCE    /home/user/projects/2022_spring/PDK/BE/Astro_FRAM/hgi1113tp1_astrofram_140612/hgi1113tp1_5lm

@@ -1,0 +1,275 @@
+ 
+****************************************
+Report : design
+        -physical
+Design : pad_TOP
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 14:46:32 2022
+****************************************
+
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 0/25/125
+****************************** P&R Summary ********************************
+Date : Sat Apr  9 14:46:32 2022
+Machine Host Name: deeppc
+Working Directory: /home/user/projects/2022_spring/asic_backend_design_sp22/lab50_chip_adder_prj_icc_demo/layout
+Library Name:      pad_TOP_chip_finish
+Cell Name:         pad_TOP.CEL;1
+Design Statistics:
+    Number of Module Cells:        413
+    Number of Pins:                11808
+    Number of IO Pad Cells:        68
+    Number of Nets:                502
+    Average Pins Per Net (Signal): 3.04752
+
+Chip Utilization:
+    Total Std Cell Area:           14050.71
+    Total Pad Cell Area:           860100.00
+    Core Size:     width 804.54, height 801.36; area 644726.17
+    Pad Core Size: width 1205.00, height 1205.00; area 1452025.00
+    Chip Size:     width 1675.00, height 1675.00; area 2805625.00
+    Std cells utilization:         2.18% 
+    Cell/Core Ratio:               2.18%
+    Cell/Chip Ratio:               31.16%
+    Number of Cell Rows:            159
+
+Master Instantiation:
+	MasterName	Type	InstCount
+	=================================
+	FILL64		STD	2674
+	FILL2		STD	598
+	FILL8		STD	292
+	FILL1		STD	285
+	FILL32		STD	283
+	FILL4		STD	281
+	FILL16		STD	279
+	DFFRHQX1	STD	132
+	INVXL		STD	48
+	AND2X1		STD	32
+	AOI2BB1X1	STD	32
+	XNOR2X1		STD	30
+	OAI2BB1X1	STD	28
+	XOR2X1		STD	26
+	AOI21X1		STD	20
+	OAI21X1		STD	16
+	AOI32X1		STD	16
+	CLKINVX8	STD	8
+	AOI2BB2X1	STD	8
+	AND4X1		STD	8
+	INVX8		STD	4
+	CLKBUFX2	STD	2
+	CLKINVX4	STD	1
+	BUFX20		STD	1
+	BUFX3		STD	1
+	IOFILLER10	IO	200
+	IOFILLER_OVERLAP	IO	104
+	PHTIC		IO	35
+	PHOB24		IO	17
+	PVDDPIL		IO	8
+	PVDDOPH		IO	4
+	PVSSOPI		IO	4
+	PCORNER		CORNER	4
+	=================================
+
+Timing/Optimization Information:
+
+Global Routing Information:
+    layer MET1, dir Hor, min width = 0.23, min space = 0.23 pitch = 0.56
+    layer MET2, dir Ver, min width = 0.28, min space = 0.28 pitch = 0.66
+    layer MET3, dir Hor, min width = 0.28, min space = 0.28 pitch = 0.56
+    layer MET4, dir Ver, min width = 0.28, min space = 0.28 pitch = 0.61
+    layer MET5, dir Hor, min width = 0.44, min space = 0.46 pitch = 0.95
+     
+    Average gCell capacity  3.95	 on layer (1)	 MET1
+    Average gCell capacity  3.90	 on layer (2)	 MET2
+    Average gCell capacity  4.63	 on layer (3)	 MET3
+    Average gCell capacity  4.03	 on layer (4)	 MET4
+    Average gCell capacity  2.57	 on layer (5)	 MET5
+     
+    Initial. Both Dirs: Overflow =     0 Max = 0 GRCs =     0 (0.00%)
+    Initial. H routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+    Initial. V routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+     
+    phase1. Both Dirs: Overflow =     0 Max = 0 GRCs =     0 (0.00%)
+    phase1. H routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+    phase1. V routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+     
+    phase2. Both Dirs: Overflow =     0 Max = 0 GRCs =     0 (0.00%)
+    phase2. H routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+    phase2. V routing: Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+     
+    Total Wire Length = 91562.72
+    Layer MET1 wire length = 0.00
+    Layer MET2 wire length = 37140.42
+    Layer MET3 wire length = 47653.44
+    Layer MET4 wire length = 6768.86
+    Layer MET5 wire length = 0.00
+    Total Number of Contacts = 3386
+    Via VIA12 count = 1520
+    Via VIA23 count = 1626
+    Via VIA34 count = 240
+    Via VIA45 count = 0
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 2422
+
+Track Assignment Information:
+    Number of wires with overlap after iteration 0 = 799 of 3966
+
+    Number of wires with overlap after iteration 1 = 255 of 2904
+
+    Total MET1 wire length: 129.7
+    Total MET2 wire length: 37068.9
+    Total MET3 wire length: 47627.8
+    Total MET4 wire length: 6790.5
+    Total MET5 wire length: 0.0
+    Total wire length: 91617.0
+
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 2422
+
+Detailed Routing Information:
+    
+
+    ---------- Detail route ----------
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 2405
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:00 CPU = 0:00:00
+     
+    DR finished with 0 open nets, of which 0 are frozen
+    DR finished with 0 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    Total number of nets = 450
+    0 open nets, of which 0 are frozen
+    Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                     0 ports without pins of 0 cells connected to 0 nets
+                                     0 ports of 0 cover cells connected to 0 non-pg nets
+    Total number of DRCs = 0
+    Total number of antenna violations = 0
+    Total number of voltage-area violations = no voltage-areas defined
+    
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 2405
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:00 CPU = 0:00:00
+     
+    Total Wire Length =                    91855 micron
+    Total Number of Contacts =             3877
+    Total Number of Wires =                2962
+    Total Number of PtConns =              742
+    Total Number of Routed Wires =       2962
+    Total Routed Wire Length =           91581 micron
+    Total Number of Routed Contacts =       3877
+    	Layer       MET1 :        149 micron
+    	Layer       MET2 :      37027 micron
+    	Layer       MET3 :      47579 micron
+    	Layer       MET4 :       7101 micron
+    	Layer       MET5 :          0 micron
+    	Via        VIA34 :        419
+    	Via        VIA23 :       1926
+    	Via        VIA12 :       1524
+    	Via   VIA12(rot) :          8
+     
+    Redundant via conversion report:
+    --------------------------------
+
+      Total optimized via conversion rate =  0.00% (0 / 3877 vias)
+     
+        Layer VIA1       =  0.00% (0      / 1532    vias)
+            Un-optimized = 100.00% (1532    vias)
+        Layer VIA2       =  0.00% (0      / 1926    vias)
+            Un-optimized = 100.00% (1926    vias)
+        Layer VIA3       =  0.00% (0      / 419     vias)
+            Un-optimized = 100.00% (419     vias)
+     
+      Total double via conversion rate    =  0.00% (0 / 3877 vias)
+     
+        Layer VIA1       =  0.00% (0      / 1532    vias)
+        Layer VIA2       =  0.00% (0      / 1926    vias)
+        Layer VIA3       =  0.00% (0      / 419     vias)
+     
+      The optimized via conversion rate based on total routed via count =  0.00% (0 / 3877 vias)
+     
+        Layer VIA1       =  0.00% (0      / 1532    vias)
+            Un-optimized = 100.00% (1532    vias)
+        Layer VIA2       =  0.00% (0      / 1926    vias)
+            Un-optimized = 100.00% (1926    vias)
+        Layer VIA3       =  0.00% (0      / 419     vias)
+            Un-optimized = 100.00% (419     vias)
+     
+
+DRC information: 
+      Total error number: 0
+
+Ring Wiring Statistics:
+    metal4 Wire Length(count):               3927.84(4)
+    metal5 Wire Length(count):               3940.56(4)
+  ==============================================
+    Total Wire Length(count):                7868.40(8)
+    Number of via4 Contacts:              8
+  ==============================================
+    Total Number of Contacts:        8
+
+Stripe Wiring Statistics:
+    metal4 Wire Length(count):              19799.20(20)
+    metal5 Wire Length(count):              19862.80(20)
+  ==============================================
+    Total Wire Length(count):               39662.00(40)
+    Number of via4 Contacts:            280
+  ==============================================
+    Total Number of Contacts:      280
+
+User Wiring Statistics:
+
+PG follow-pin Wiring Statistics:
+    metal1 Wire Length(count):             158858.93(163)
+    metal5 Wire Length(count):                249.72(12)
+  ==============================================
+    Total Wire Length(count):              159108.65(175)
+    Number of via1 Contacts:           1905
+    Number of via2 Contacts:           1905
+    Number of via3 Contacts:           1905
+    Number of via4 Contacts:             24
+  ==============================================
+    Total Number of Contacts:     5739
+
+Signal Wiring Statistics:
+    metal1 Wire Length(count):                149.22(129)
+    metal2 Wire Length(count):              37027.00(1958)
+    metal3 Wire Length(count):              47578.60(1368)
+    metal4 Wire Length(count):               7100.68(249)
+  ==============================================
+    Total Wire Length(count):               91855.49(3704)
+
+      Mask Name      Contact Code    Number Of Contacts    Percentage
+        via1           VIA12(2)              1532	        100
+        via2           VIA23(3)              1926	        100
+        via3           VIA34(4)               419	        100
+  ==============================================
+    Total Number of Contacts:     3877
+
+  Horizontal/Vertical Wire Distribution:
+    Layer      Hor. Wire (% of Hor.)     Ver. Wire (% of Ver.)
+    metal1           129.42 ( 0.27%)            19.80 ( 0.04%)
+    metal2           119.38 ( 0.25%)         36907.62 (83.86%)
+    metal3         47522.60 (99.32%)            56.00 ( 0.13%)
+    metal4            74.92 ( 0.16%)          7025.76 (15.96%)
+  ==============================================================
+    Total          47846.32                  44009.18
+
+LVS Run Time:
+    Elapsed =    0:00:00, CPU =    0:00:00
+1

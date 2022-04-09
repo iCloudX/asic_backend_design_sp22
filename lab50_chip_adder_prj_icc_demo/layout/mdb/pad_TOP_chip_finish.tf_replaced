@@ -1,0 +1,1556 @@
+
+Technology	{
+		name				= "HL18G15"
+		date				= "150724"
+		dielectric			= 3.7e-05
+		unitTimeName			= "ns"
+		timePrecision			= 1000
+		unitLengthName			= "micron"
+		lengthPrecision			= 1000
+		gridResolution			= 5
+		unitVoltageName			= "V"
+		voltagePrecision		= 1000000
+		unitCurrentName			= "uA"
+		currentPrecision		= 1000
+		unitPowerName			= "nw"
+		powerPrecision			= 1000
+		unitResistanceName		= "kohm"
+		resistancePrecision		= 10000000
+		unitCapacitanceName		= "pf"
+		capacitancePrecision		= 1000000
+		unitInductanceName		= "nh"
+		inductancePrecision		= 100
+		minBaselineTemperature		= 25
+		nomBaselineTemperature		= 25
+		maxBaselineTemperature		= 25
+}
+
+Color		14 {
+		name				= "14"
+		rgbDefined			= 1
+		redIntensity			= 0
+		greenIntensity			= 255
+		blueIntensity			= 190
+}
+
+Color		19 {
+		name				= "19"
+		rgbDefined			= 1
+		redIntensity			= 90
+		greenIntensity			= 0
+		blueIntensity			= 255
+}
+
+Color		27 {
+		name				= "27"
+		rgbDefined			= 1
+		redIntensity			= 90
+		greenIntensity			= 175
+		blueIntensity			= 255
+}
+
+Color		42 {
+		name				= "42"
+		rgbDefined			= 1
+		redIntensity			= 180
+		greenIntensity			= 175
+		blueIntensity			= 190
+}
+
+Color		49 {
+		name				= "49"
+		rgbDefined			= 1
+		redIntensity			= 255
+		greenIntensity			= 0
+		blueIntensity			= 100
+}
+
+Stipple		"rectangleX" {
+		width			= 1
+		height			= 1
+		pattern			= (1) 
+}
+
+Tile		"unit" {
+		width				= 0.66
+		height				= 5.04
+}
+
+Layer		"NACT" {
+		layerNumber			= 1
+		maskName			= "nactive"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "magenta"
+		lineStyle			= "dot"
+		pattern				= "zigzag"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"NW" {
+		layerNumber			= 2
+		maskName			= "nwell"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "magenta"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"POLY" {
+		layerNumber			= 3
+		maskName			= "poly"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "red"
+		lineStyle			= "solid"
+		pattern				= "solid"
+		pitch				= 0
+		defaultWidth			= 0.18
+		minWidth			= 0.18
+		minSpacing			= 0.25
+}
+
+Layer		"NPSD" {
+		layerNumber			= 4
+		maskName			= "nimplant"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "orange"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PPSD" {
+		layerNumber			= 5
+		maskName			= "pimplant"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "14"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PW" {
+		layerNumber			= 6
+		maskName			= "pwell"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"CONT" {
+		layerNumber			= 7
+		maskName			= "polyCont"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "rectangleX"
+		pitch				= 0
+		defaultWidth			= 0.22
+		minWidth			= 0.22
+		minSpacing			= 0.25
+		maxCurrDensity			= 1.22e+06
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.007
+		unitMaxResistance		= 0.02
+		unitMinThickness		= 0.4195
+		unitNomThickness		= 0.6
+		unitMaxThickness		= 0.7805
+}
+
+Layer		"DNW" {
+		layerNumber			= 8
+		maskName			= "dnwell"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "19"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"MET1" {
+		layerNumber			= 9
+		maskName			= "metal1"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "blue"
+		lineStyle			= "solid"
+		pattern				= "slash"
+		pitch				= 0.56
+		defaultWidth			= 0.23
+		minWidth			= 0.23
+		minSpacing			= 0.23
+		maxSegLenForRC			= 2000
+		maxCurrDensity			= 10
+		unitMinResistance		= 6.4e-05
+		unitNomResistance		= 8.2e-05
+		unitMaxResistance		= 0.0001
+		unitMinThickness		= 0.4725
+		unitNomThickness		= 0.525
+		unitMaxThickness		= 0.5775
+		fatTblDimension			= 2
+		fatTblThreshold			= (0,10)
+		fatTblExtensionRange		= (0,1)
+		fatTblSpacing			= (0.23,0.6,
+						   0.6,0.6)
+		minArea				= 0.202
+}
+
+Layer		"VIA1" {
+		layerNumber			= 10
+		maskName			= "via1"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "rectangleX"
+		pitch				= 0
+		defaultWidth			= 0.26
+		minWidth			= 0.26
+		minSpacing			= 0.26
+		maxCurrDensity			= 414200
+		unitMinThickness		= 0.5063
+		unitNomThickness		= 0.8
+		unitMaxThickness		= 1.0938
+}
+
+Layer		"MET2" {
+		layerNumber			= 11
+		maskName			= "metal2"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "backSlash"
+		pitch				= 0.66
+		defaultWidth			= 0.28
+		minWidth			= 0.28
+		minSpacing			= 0.28
+		maxSegLenForRC			= 2000
+		maxCurrDensity			= 10
+		unitMinResistance		= 6.4e-05
+		unitNomResistance		= 8.2e-05
+		unitMaxResistance		= 0.0001
+		unitMinThickness		= 0.4725
+		unitNomThickness		= 0.525
+		unitMaxThickness		= 0.5775
+		fatTblDimension			= 2
+		fatTblThreshold			= (0,10)
+		fatTblExtensionRange		= (0,1)
+		fatTblSpacing			= (0.28,0.6,
+						   0.6,0.6)
+		minArea				= 0.202
+}
+
+Layer		"VIA2" {
+		layerNumber			= 12
+		maskName			= "via2"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "solid"
+		pattern				= "rectangleX"
+		pitch				= 0
+		defaultWidth			= 0.26
+		minWidth			= 0.26
+		minSpacing			= 0.26
+		maxCurrDensity			= 414200
+		unitMinThickness		= 0.5063
+		unitNomThickness		= 0.8
+		unitMaxThickness		= 1.0938
+}
+
+Layer		"MET3" {
+		layerNumber			= 13
+		maskName			= "metal3"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "solid"
+		pattern				= "slash"
+		pitch				= 0.56
+		defaultWidth			= 0.28
+		minWidth			= 0.28
+		minSpacing			= 0.28
+		maxSegLenForRC			= 2000
+		maxCurrDensity			= 10
+		unitMinResistance		= 6.4e-05
+		unitNomResistance		= 8.2e-05
+		unitMaxResistance		= 0.0001
+		unitMinThickness		= 0.4725
+		unitNomThickness		= 0.525
+		unitMaxThickness		= 0.5775
+		fatTblDimension			= 2
+		fatTblThreshold			= (0,10)
+		fatTblExtensionRange		= (0,1)
+		fatTblSpacing			= (0.28,0.6,
+						   0.6,0.6)
+		minArea				= 0.202
+}
+
+Layer		"VIA3" {
+		layerNumber			= 14
+		maskName			= "via3"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "purple"
+		lineStyle			= "solid"
+		pattern				= "rectangleX"
+		pitch				= 0
+		defaultWidth			= 0.26
+		minWidth			= 0.26
+		minSpacing			= 0.26
+		maxCurrDensity			= 414200
+		unitMinThickness		= 0.5063
+		unitNomThickness		= 0.8
+		unitMaxThickness		= 1.0938
+}
+
+Layer		"MET4" {
+		layerNumber			= 15
+		maskName			= "metal4"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "purple"
+		lineStyle			= "solid"
+		pattern				= "backSlash"
+		pitch				= 0.61
+		defaultWidth			= 0.28
+		minWidth			= 0.28
+		minSpacing			= 0.28
+		maxSegLenForRC			= 2000
+		maxCurrDensity			= 10
+		unitMinResistance		= 6.4e-05
+		unitNomResistance		= 8.2e-05
+		unitMaxResistance		= 0.0001
+		unitMinThickness		= 0.4725
+		unitNomThickness		= 0.525
+		unitMaxThickness		= 0.5775
+		fatTblDimension			= 2
+		fatTblThreshold			= (0,10)
+		fatTblExtensionRange		= (0,1)
+		fatTblSpacing			= (0.28,0.6,
+						   0.6,0.6)
+		minArea				= 0.202
+}
+
+Layer		"VIA4" {
+		layerNumber			= 16
+		maskName			= "via4"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "red"
+		lineStyle			= "solid"
+		pattern				= "rectangleX"
+		pitch				= 0
+		defaultWidth			= 0.26
+		minWidth			= 0.26
+		minSpacing			= 0.26
+		maxCurrDensity			= 414200
+		unitMinThickness		= 0.5063
+		unitNomThickness		= 0.8
+		unitMaxThickness		= 1.0938
+}
+
+Layer		"MET5" {
+		layerNumber			= 17
+		maskName			= "metal5"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "red"
+		lineStyle			= "solid"
+		pattern				= "slash"
+		pitch				= 0.95
+		defaultWidth			= 0.44
+		minWidth			= 0.44
+		minSpacing			= 0.46
+		maxSegLenForRC			= 2000
+		maxCurrDensity			= 16
+		unitMinResistance		= 3e-05
+		unitNomResistance		= 4e-05
+		unitMaxResistance		= 5e-05
+		unitMinThickness		= 0.783
+		unitNomThickness		= 0.87
+		unitMaxThickness		= 0.957
+		fatTblDimension			= 2
+		fatTblThreshold			= (0,10)
+		fatTblExtensionRange		= (0,1)
+		fatTblSpacing			= (0.46,0.6,
+						   0.6,0.6)
+		minArea				= 0.562
+}
+
+Layer		"SALPR" {
+		layerNumber			= 25
+		maskName			= ""
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0.22
+		minWidth			= 0.22
+		minSpacing			= 0.24
+}
+
+Layer		"TGOX" {
+		layerNumber			= 26
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PAD" {
+		layerNumber			= 28
+		maskName			= "passivation"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "solid"
+		pattern				= "solid"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PACT" {
+		layerNumber			= 30
+		maskName			= "pactive"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "19"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"HRI" {
+		layerNumber			= 31
+		maskName			= "hri"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"MIM" {
+		layerNumber			= 33
+		maskName			= "mim"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PESD" {
+		layerNumber			= 34
+		maskName			= "esdimp"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "white"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"ARR" {
+		layerNumber			= 40
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"LIC" {
+		layerNumber			= 43
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M0" {
+		layerNumber			= 44
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M1BL" {
+		layerNumber			= 48
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M2BL" {
+		layerNumber			= 49
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M3BL" {
+		layerNumber			= 50
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M4BL" {
+		layerNumber			= 51
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M5BL" {
+		layerNumber			= 52
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"ZNP" {
+		layerNumber			= 56
+		maskName			= "znp"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"TKM" {
+		layerNumber			= 58
+		maskName			= "tkm"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M1du" {
+		layerNumber			= 64
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "blue"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M2du" {
+		layerNumber			= 66
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M3du" {
+		layerNumber			= 67
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "magenta"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M4du" {
+		layerNumber			= 68
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M5du" {
+		layerNumber			= 69
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "red"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PIQ" {
+		layerNumber			= 84
+		maskName			= "piq"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"R" {
+		layerNumber			= 87
+		maskName			= "dummyActive"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"ZPW" {
+		layerNumber			= 88
+		maskName			= "zpw"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"ZPP" {
+		layerNumber			= 89
+		maskName			= "zpp"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"ARRAY" {
+		layerNumber			= 99
+		maskName			= "sram"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "red"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M1PIN" {
+		layerNumber			= 100
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M2PIN" {
+		layerNumber			= 101
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M3PIN" {
+		layerNumber			= 102
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M4PIN" {
+		layerNumber			= 103
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "purple"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"M5PIN" {
+		layerNumber			= 104
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "red"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"RES" {
+		layerNumber			= 108
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"BJTA" {
+		layerNumber			= 109
+		maskName			= "bjt"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"BOUNDARY" {
+		layerNumber			= 111
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"TEXT" {
+		layerNumber			= 112
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"DCTY" {
+		layerNumber			= 113
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"DIODE" {
+		layerNumber			= 118
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"MCAP" {
+		layerNumber			= 119
+		maskName			= "mcap"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"IODEF" {
+		layerNumber			= 120
+		maskName			= ""
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"HNW" {
+		layerNumber			= 138
+		maskName			= "hnwell"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"HPW" {
+		layerNumber			= 139
+		maskName			= "hpwell"
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "14"
+		lineStyle			= "solid"
+		pattern				= "blank"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"NDRIFT" {
+		layerNumber			= 140
+		maskName			= "ndrift"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "solid"
+		pattern				= "slash"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"PDRIFT" {
+		layerNumber			= 141
+		maskName			= "pdrift"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "blue"
+		lineStyle			= "solid"
+		pattern				= "slash"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"HNACT" {
+		layerNumber			= 142
+		maskName			= "hnact"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "dot"
+		pattern				= "slash"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"HPACT" {
+		layerNumber			= 143
+		maskName			= "hpact"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "dot"
+		pattern				= "slash"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"HPI" {
+		layerNumber			= 145
+		maskName			= "hpi"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "cyan"
+		lineStyle			= "solid"
+		pattern				= "slash"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"DEEP_HNW" {
+		layerNumber			= 153
+		maskName			= "deephnw"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "green"
+		lineStyle			= "dot"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"BN" {
+		layerNumber			= 154
+		maskName			= "bncap"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "dot"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"CHSTOP" {
+		layerNumber			= 155
+		maskName			= "chstop"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "blue"
+		lineStyle			= "dot"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+Layer		"ADDMV" {
+		layerNumber			= 157
+		maskName			= "6varea"
+		isDefaultLayer			= 1
+		visible				= 1
+		selectable			= 1
+		blink				= 0
+		color				= "yellow"
+		lineStyle			= "dot"
+		pattern				= "dot"
+		pitch				= 0
+		defaultWidth			= 0
+		minWidth			= 0
+		minSpacing			= 0
+}
+
+ContactCode	"VIA12" {
+		contactCodeNumber		= 2
+		cutLayer			= "VIA1"
+		lowerLayer			= "MET1"
+		upperLayer			= "MET2"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.01
+		upperLayerEncHeight		= 0.06
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA23" {
+		contactCodeNumber		= 3
+		cutLayer			= "VIA2"
+		lowerLayer			= "MET2"
+		upperLayer			= "MET3"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.06
+		upperLayerEncHeight		= 0.01
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA34" {
+		contactCodeNumber		= 4
+		cutLayer			= "VIA3"
+		lowerLayer			= "MET3"
+		upperLayer			= "MET4"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.01
+		upperLayerEncHeight		= 0.06
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA45" {
+		contactCodeNumber		= 5
+		cutLayer			= "VIA4"
+		lowerLayer			= "MET4"
+		upperLayer			= "MET5"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.09
+		upperLayerEncHeight		= 0.09
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.35
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.003
+		unitMaxResistance		= 0.01
+}
+
+ContactCode	"VIA12_vert" {
+		contactCodeNumber		= 52
+		cutLayer			= "VIA1"
+		lowerLayer			= "MET1"
+		upperLayer			= "MET2"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.01
+		upperLayerEncHeight		= 0.06
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA23_1" {
+		contactCodeNumber		= 53
+		cutLayer			= "VIA2"
+		lowerLayer			= "MET2"
+		upperLayer			= "MET3"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.01
+		upperLayerEncHeight		= 0.06
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA34_vert" {
+		contactCodeNumber		= 54
+		cutLayer			= "VIA3"
+		lowerLayer			= "MET3"
+		upperLayer			= "MET4"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.01
+		upperLayerEncHeight		= 0.06
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA45_1" {
+		contactCodeNumber		= 55
+		cutLayer			= "VIA4"
+		lowerLayer			= "MET4"
+		upperLayer			= "MET5"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.09
+		upperLayerEncHeight		= 0.09
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.35
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.003
+		unitMaxResistance		= 0.01
+}
+
+ContactCode	"VIA12_1" {
+		contactCodeNumber		= 62
+		cutLayer			= "VIA1"
+		lowerLayer			= "MET1"
+		upperLayer			= "MET2"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.06
+		upperLayerEncHeight		= 0.01
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA23_hori" {
+		contactCodeNumber		= 63
+		cutLayer			= "VIA2"
+		lowerLayer			= "MET2"
+		upperLayer			= "MET3"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.06
+		upperLayerEncHeight		= 0.01
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA34_1" {
+		contactCodeNumber		= 64
+		cutLayer			= "VIA3"
+		lowerLayer			= "MET3"
+		upperLayer			= "MET4"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.06
+		upperLayerEncHeight		= 0.01
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA12_vert_1" {
+		contactCodeNumber		= 72
+		cutLayer			= "VIA1"
+		lowerLayer			= "MET1"
+		upperLayer			= "MET2"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.06
+		upperLayerEncHeight		= 0.01
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA23_hori_1" {
+		contactCodeNumber		= 73
+		cutLayer			= "VIA2"
+		lowerLayer			= "MET2"
+		upperLayer			= "MET3"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.01
+		upperLayerEncHeight		= 0.06
+		lowerLayerEncWidth		= 0.01
+		lowerLayerEncHeight		= 0.06
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+ContactCode	"VIA34_vert_1" {
+		contactCodeNumber		= 74
+		cutLayer			= "VIA3"
+		lowerLayer			= "MET3"
+		upperLayer			= "MET4"
+		isDefaultContact		= 1
+		cutWidth			= 0.26
+		cutHeight			= 0.26
+		upperLayerEncWidth		= 0.06
+		upperLayerEncHeight		= 0.01
+		lowerLayerEncWidth		= 0.06
+		lowerLayerEncHeight		= 0.01
+		minCutSpacing			= 0.26
+		unitMinResistance		= 0.001
+		unitNomResistance		= 0.0055
+		unitMaxResistance		= 0.015
+}
+
+DesignRule	{
+		layer1				= "CONT"
+		layer2				= "VIA1"
+		minSpacing			= 0
+		stackable			= 1
+}
+
+DesignRule	{
+		layer1				= "VIA2"
+		layer2				= "VIA1"
+		minSpacing			= 0
+		stackable			= 1
+}
+
+DesignRule	{
+		layer1				= "VIA3"
+		layer2				= "VIA2"
+		minSpacing			= 0
+		stackable			= 1
+}
+
+DesignRule	{
+		layer1				= "VIA4"
+		layer2				= "VIA3"
+		minSpacing			= 0
+		stackable			= 1
+}
+
+SlotRule	{
+		layer				= "MET1"
+		widthThreshold			= 35
+		minSlotWidth			= 1
+		minSlotLength			= 10
+		minSideSpace			= 10
+		minSideClearance		= 10
+		minEndSpace			= 10
+		minEndClearance			= 10
+}
+
+SlotRule	{
+		layer				= "MET2"
+		widthThreshold			= 35
+		minSlotWidth			= 1
+		minSlotLength			= 10
+		minSideSpace			= 10
+		minSideClearance		= 10
+		minEndSpace			= 10
+		minEndClearance			= 10
+}
+
+SlotRule	{
+		layer				= "MET3"
+		widthThreshold			= 35
+		minSlotWidth			= 1
+		minSlotLength			= 10
+		minSideSpace			= 10
+		minSideClearance		= 10
+		minEndSpace			= 10
+		minEndClearance			= 10
+}
+
+SlotRule	{
+		layer				= "MET4"
+		widthThreshold			= 35
+		minSlotWidth			= 1
+		minSlotLength			= 10
+		minSideSpace			= 10
+		minSideClearance		= 10
+		minEndSpace			= 10
+		minEndClearance			= 10
+}
+
+SlotRule	{
+		layer				= "MET5"
+		widthThreshold			= 35
+		minSlotWidth			= 1
+		minSlotLength			= 10
+		minSideSpace			= 10
+		minSideClearance		= 10
+		minEndSpace			= 10
+		minEndClearance			= 10
+}

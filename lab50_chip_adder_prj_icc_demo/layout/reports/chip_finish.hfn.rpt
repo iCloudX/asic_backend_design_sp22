@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : net fanout
+        -threshold 10
+Design : pad_TOP
+Version: P-2019.03-SP5-5
+Date   : Sat Apr  9 14:46:32 2022
+****************************************
+
+
+Operating Conditions: slow   Library: m18gm180s_wci
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+pad_TOP                HYUNDAI18_Conservative
+                                         m18gm180s_wci
+
+
+Attributes:
+   dr - drc disabled
+    c - annotated capacitance
+    d - dont_touch
+    i - ideal_net
+    I - ideal_network
+    p - includes pin load
+    r - annotated resistance
+    h - high fanout
+
+Net                 Fanout   Attributes   Capacitance   Driver
+--------------------------------------------------------------------------------
+in_p_rst_n              37   c                0.42      pad11/Y
+u_adder_top/n4          28   c                0.30      u_adder_top/U4/Y
+u_adder_top/n3          28   c                0.30      u_adder_top/U3/Y
+u_adder_top/n1          42   c                0.42      u_adder_top/U1/Y
+u_adder_top/in_p_clk_G2B2I10
+                        18   c, d             0.15      u_adder_top/INVX8_G2B1I10/Y
+u_adder_top/in_p_clk_G2B2I8
+                        13   c, d             0.12      u_adder_top/CLKINVX8_G2B1I8/Y
+u_adder_top/in_p_clk_G2B2I7
+                        16   c, d             0.14      u_adder_top/CLKINVX8_G2B1I7/Y
+u_adder_top/in_p_clk_G2B2I3
+                        13   c, d             0.11      u_adder_top/CLKINVX8_G2B1I3/Y
+u_adder_top/in_p_clk_G2B2I9
+                        14   c, d             0.12      u_adder_top/CLKINVX8_G2B1I9/Y
+u_adder_top/in_p_clk_G2B2I5
+                        14   c, d             0.12      u_adder_top/CLKINVX8_G2B1I5/Y
+u_adder_top/in_p_clk_G2B2I4
+                        14   c, d             0.12      u_adder_top/CLKINVX8_G2B1I4/Y
+u_adder_top/in_p_clk_G2B2I2
+                        12   c, d             0.10      u_adder_top/CLKINVX8_G2B1I2/Y
+1
