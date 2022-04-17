@@ -1,0 +1,162 @@
+###################################
+#                                 #
+#   UNITS                         #
+#                                 #
+###################################
+
+# The unit of time in this library is 1ns 
+# The unit of capacitance in this library is 1pF 
+#
+
+
+###################################
+#                                 #
+#   CLEAN-UP                      #
+#                                 #
+###################################
+
+# Remove any existing constraints and attributes
+#
+reset_design
+
+
+###################################
+#                                 #
+#   CLOCK DEFINITION              #
+#                                 #
+###################################
+
+# 100Mhz clock is a 10ns period:
+# So, let's treat 6 ns :: 60% of 10ns period to make chip stable (40% margin for zero delay model) 
+create_clock -period 6 -name MAIN_CLOCK [get_ports clk]
+
+
+# External clock source latency is 1ns 
+# and the maximum internal clock network insertion delay or latency is 0.5 ns:
+#
+# latency is only needed for AP application
+set_clock_latency -source  -max 0.4 [get_clocks MAIN_CLOCK] 
+set_clock_latency -max 0.1 [get_clocks MAIN_CLOCK]
+
+
+# 100ps skew (+50ps and -50ps) 
+# 200ps jitter 
+# 200ps setup margin;
+# This equals 0.5 ns of total uncertainty.
+#
+#set_clock_uncertainty -setup 0.5 [get_clocks MAIN_CLOCK]
+set_clock_uncertainty -setup 0.3 [get_clocks MAIN_CLOCK]
+
+
+# The maximum clock transition is 0.5ns
+#
+set_clock_transition 0.2 [get_clocks MAIN_CLOCK]
+
+###################################
+#                                 #
+#   INPUT/OUTPUT TIMING           #
+#                                 #
+###################################
+
+# Delay is estimated like below
+# It is recommended to use 1/2 CLK period to input delay  
+
+set_input_delay -max 3.0 -clock MAIN_CLOCK [all_inputs]
+set_input_delay -min 1.0 -clock MAIN_CLOCK [all_inputs]
+remove_input_delay [get_ports "clk rst_n"] 
+
+set_output_delay -max 3.0  -clock MAIN_CLOCK [all_outputs]
+set_output_delay -min -1.0  -clock MAIN_CLOCK [all_outputs]
+
+
+###################################
+#                                 #
+#   DESIGN AREA                   #
+#                                 #
+###################################
+
+# Area Constraint
+#
+set_max_area 0
+
+
+###################################
+#                                 #
+#   ENVIRONMENTAL ATTRIBUTES      #
+#                                 #
+###################################
+
+#set_driving_cell -lib_cell PHTIC -library hgi1113tp1_wci [all_inputs] 
+
+#####################
+####### DRC  ########
+# library default values are assigned to set_max_transition, max_capacitace, max_fanout
+# no need to assign any values 
+set_max_transition 10.0 [remove_from_collection [all_inputs] [get_ports "clk rst_n"]]
+set_max_capacitance 100.0 [all_outputs] 
+set_max_fanout 4 [remove_from_collection [all_inputs] [get_ports "clk"]]
+
+# clk max fanout is out of our concern, because it is exceptional and it would be ideal network
+
+#set_load [load_of hgi1113tp1_wci/PHOB24/A] [all_outputs]
+set_load 0.5 [all_outputs]
+
+# to determine wire load model automatically, turn off the below 2 lines 
+# There are ForQA(ideal), HYUNDAI18_Conservative and HYUNDAI18_Aggressive
+#set auto_wire_load_selection false
+set_wire_load_model -name HYUNDAI18_Aggressive
+
+set_wire_load_mode "top"
+
+# operating condition use to scale cell and net delays.
+set_operating_condition -max "slow" -min "fast"
+
+
+###################################
+#                                 #
+#   SPECIAL CLOCK DEFINITION      #
+#                                 #
+###################################
+
+# there are some kinds of clock series 
+# clock source is 1 but 3 or 4 kinds of clocks will be made 
+# so we should define the proper constraints 
+
+# divide clock by 2 to make HALF_CLK in top SoC module 
+# try your self to make HALF_CLK here
+# 1/2 speed and it's from MAIN_CLOCK
+# uncertainty, latency, transition values are all 0.5
+
+# Create path groups for I/O/combo paths if I/O constraints are not accurate 
+# 10% of max delay 
+group_path -name INPUTS -from [all_inputs]
+group_path -name OUTPUTS -to [all_outputs]
+group_path -name COMBO -from [all_inputs] -to [all_outputs]
+
+group_path -name MAIN_CLOCK -weight 5 -critical 0.5
+# group_path -name HALF_CLK -weight 5 -critical 0.5
+group_path -name INPUTS -weight 1 -critical 0.5
+group_path -name OUTPUTS -weight 1 -critical 0.5
+group_path -name COMBO -weight 5 -critical 1.0
+
+
+
+###################################
+#                                 #
+#   ETC ATTRIBUTES      	  #
+#                                 #
+###################################
+
+# We usually don't know the external capaciatnce 
+# so insert buffers to isolate and protect inner logics
+set_isolate_ports [all_outputs]
+
+# there is no need to be the numerous buffers on RESETn network during synthesis 
+set_ideal_network [get_ports "rst_n clk"]
+#set_ideal_network [get_pins ...  get_nets 
+
+# To hold check
+#set_fix_hold [all_clocks]
+
+# no through pass assign syntax => insert buffers
+set_fix_multiple_port_nets -all -buffer_constants -feedthroughs -constants
