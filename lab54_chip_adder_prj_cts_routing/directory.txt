@@ -1,0 +1,136 @@
+.
+├── directory.txt
+├── formality
+│   ├── post
+│   │   ├── clean.sh
+│   │   ├── formality_auto.tcl
+│   │   ├── formality_scr.tcl
+│   │   ├── formality.tcl
+│   │   ├── formality.tcl.bak
+│   │   ├── Makefile
+│   │   └── run_formality
+│   └── pre
+│       ├── clean.sh
+│       ├── formality_auto.tcl
+│       ├── formality.tcl
+│       ├── formality.tcl.bak
+│       ├── Makefile
+│       └── run_formality
+├── layout
+│   ├── icc_scripts
+│   │   ├── 00_read_design.tcl
+│   │   ├── 01_floorplan_init.tcl
+│   │   ├── 01_floorplan.tcl
+│   │   ├── 02_powerplan_init.tcl
+│   │   ├── 02_powerplan.tcl
+│   │   ├── 03_cts_route_init.tcl
+│   │   ├── 03_cts_route.tcl
+│   │   ├── 04_chip_finish_init.tcl
+│   │   └── 04_chip_finish.tcl
+│   ├── Makefile
+│   ├── tdf
+│   │   ├── adder_top2.tdf
+│   │   └── adder_top.tdf
+│   ├── user_data
+│   │   ├── adder_top.gate.v
+│   │   ├── adder_top.pnr_chip_finish.sdc
+│   │   ├── adder_top.pnr_cts.sdc
+│   │   ├── adder_top.pnr.sdc
+│   │   └── adder_top.sdc
+│   └── user_scripts
+│       ├── common_lib_setup.tcl
+│       └── user_design_setup.tcl
+├── sim
+│   ├── func_sim
+│   │   ├── Makefile
+│   │   ├── novas.conf
+│   │   ├── novas.rc
+│   │   ├── run.f
+│   │   ├── run.sh
+│   │   ├── run_verdi.sh
+│   │   ├── signal.rc
+│   │   └── sim_define.v
+│   ├── post_sim
+│   │   ├── max
+│   │   │   ├── Makefile
+│   │   │   ├── novas.conf
+│   │   │   ├── novas.rc
+│   │   │   ├── readme
+│   │   │   ├── run_max.f
+│   │   │   ├── run_max.sh
+│   │   │   ├── run_verdi.sh
+│   │   │   ├── signal.rc
+│   │   │   ├── sim_define.v
+│   │   │   └── verdi_config_file
+│   │   └── min
+│   │       ├── Makefile
+│   │       ├── novas.conf
+│   │       ├── novas.rc
+│   │       ├── run_min.f
+│   │       ├── run_min.sh
+│   │       ├── run_verdi.sh
+│   │       ├── sim_define.v
+│   │       └── verdi_config_file
+│   └── pre_sim
+│       ├── Makefile
+│       ├── novas.conf
+│       ├── novas.rc
+│       ├── run.f
+│       ├── run.sh
+│       ├── run_verdi.sh
+│       ├── signal.rc
+│       ├── sim_define.v
+│       └── verdi_config_file
+├── src
+│   ├── netlist
+│   │   ├── post
+│   │   │   └── readme
+│   │   └── pre
+│   │       ├── pad_TOP_gate.v
+│   │       └── readme
+│   └── rtl
+│       ├── adder_top.v
+│       ├── carry_lookahead_adder_16.v
+│       ├── cla_4bit.v
+│       ├── cla_logic.v
+│       ├── full_adder.v
+│       ├── pad_TOP_no_powerpad.v
+│       ├── pad_TOP.v
+│       └── ripple_carry_adder_16.v
+├── sta
+│   ├── post
+│   │   ├── clean.sh
+│   │   ├── Makefile
+│   │   ├── prep_data
+│   │   ├── run_pt.sh
+│   │   └── script
+│   │       ├── max_scripts
+│   │       │   ├── post_sta_max_init.tcl
+│   │       │   └── post_sta_max.tcl
+│   │       └── min_scripts
+│   │           ├── post_sta_min_init.tcl
+│   │           └── post_sta_min.tcl
+│   └── pre
+│       ├── clean.sh
+│       ├── Makefile
+│       ├── run_pt.sh
+│       └── script
+│           └── pt.tcl
+├── StarRC
+│   ├── clean.sh
+│   ├── readme
+│   ├── run_StarRC.sh
+│   ├── StarRCXT_bestRC.cmd
+│   ├── StarRCXT_worstRC.cmd
+│   └── tech_file
+├── syn
+│   ├── cons
+│   │   └── TOP.con
+│   ├── Makefile
+│   ├── run_synthesis
+│   └── script
+│       └── script.tcl
+└── testbench
+    └── testbench.v
+
+32 directories, 101 files
