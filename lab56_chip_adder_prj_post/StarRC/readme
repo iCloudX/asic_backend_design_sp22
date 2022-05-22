@@ -1,0 +1,15 @@
+1. sourcing Star-RCXT Tool
+        /cad/tools/Star-RCXT/Star-RCXT.env
+        /cad/tools/Hercules/hercules.env
+
+2. in the directory at which Apollo DB exists, 
+
+   vi star_rcxt.cmd and modify the options 
+	 set _LIBRARY_NAME tp <library_name>
+	 set _PRIMARY_ to <top_cell_name>
+
+3. enter
+	"StarXtract -clean star_rcxt.cmd
+
+4. After the extraction,
+	the <top_cell_name>.SPF file will be generated.

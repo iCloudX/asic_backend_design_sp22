@@ -1,0 +1,106 @@
+.
+|-- StarRC
+|   |-- Makefile
+|   |-- StarRCXT_bestRC.cmd
+|   |-- StarRCXT_worstRC.cmd
+|   |-- clean.sh
+|   |-- readme
+|   |-- run_StarRC.sh
+|   `-- tech_file
+|-- directory.txt
+|-- formality
+|   |-- post
+|   |   |-- Makefile
+|   |   |-- clean.sh
+|   |   |-- formality.tcl
+|   |   |-- formality.tcl.bak
+|   |   |-- formality_auto.tcl
+|   |   |-- formality_scr.tcl
+|   |   `-- run_formality
+|   `-- pre
+|       |-- Makefile
+|       |-- clean.sh
+|       |-- formality.tcl
+|       |-- formality.tcl.bak
+|       |-- formality_auto.tcl
+|       `-- run_formality
+|-- layout
+|   |-- Makefile
+|   |-- icc_scripts
+|   |   |-- 00_read_design.tcl
+|   |   |-- 01_floorplan.tcl
+|   |   |-- 02_powerplan.tcl
+|   |   |-- 03_cts_route.tcl
+|   |   `-- 04_chip_finish.tcl
+|   |-- tdf
+|   |   `-- pad_TOP.tdf
+|   |-- user_data
+|   |   |-- adder_top.pnr.sdc
+|   |   |-- adder_top.pnr_chip_finish.sdc
+|   |   |-- adder_top.pnr_cts.sdc
+|   |   |-- adder_top.sdc
+|   |   |-- insert_pad.sh
+|   |   `-- pad_TOP_gate.v
+|   `-- user_scripts
+|       |-- common_lib_setup.tcl
+|       `-- user_design_setup.tcl
+|-- sim
+|   |-- func_sim
+|   |   |-- Makefile
+|   |   |-- novas.conf
+|   |   |-- novas.rc
+|   |   |-- run.f
+|   |   |-- run.sh
+|   |   |-- run_verdi.sh
+|   |   |-- signal.rc
+|   |   `-- sim_define.v
+|   |-- post_sim
+|   `-- pre_sim
+|       |-- Makefile
+|       |-- novas.conf
+|       |-- novas.rc
+|       |-- run.f
+|       |-- run.sh
+|       |-- run_verdi.sh
+|       |-- signal.rc
+|       |-- sim_define.v
+|       `-- verdi_config_file
+|-- src
+|   |-- netlist
+|   |   |-- post
+|   |   |   `-- readme
+|   |   `-- pre
+|   |       |-- adder_top.gate.v
+|   |       |-- adder_top.mapped.ddc
+|   |       |-- adder_top.sdc
+|   |       |-- adder_top.sdf_dc
+|   |       |-- pad_TOP_gate.v
+|   |       `-- readme
+|   `-- rtl
+|       |-- adder_top.v
+|       |-- carry_lookahead_adder_16.v
+|       |-- cla_4bit.v
+|       |-- cla_logic.v
+|       |-- full_adder.v
+|       |-- pad_TOP.v
+|       |-- pad_TOP_no_powerpad.v
+|       `-- ripple_carry_adder_16.v
+|-- sta
+|   |-- post
+|   `-- pre
+|       |-- Makefile
+|       |-- clean.sh
+|       |-- run_pt.sh
+|       `-- script
+|           `-- pt.tcl
+|-- syn
+|   |-- Makefile
+|   |-- cons
+|   |   `-- TOP.con
+|   |-- run_synthesis
+|   `-- script
+|       `-- script.tcl
+`-- testbench
+    `-- testbench.v
+
+26 directories, 77 files
