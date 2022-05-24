@@ -27,10 +27,29 @@
     #set_dont_touch_placement [all_macro_cells]
     read_sdc $FUNCCTS_SDC
 
+set enable_recovery_removal_arcs true
+set timing_enable_multiple_clocks_per_reg true
+set timing_remove_clock_reconvergence_pessimism true
+
+set physopt_enable_via_res_support true
+set physopt_hard_keepout_distance 5
+
+set_buffer_opt_strategy -effort medium
+
 ### Place OPT
     remove_placement -object_type standard_cell
     set_clock_tree_options -clock_trees [all_clocks] -layer_list "MET2 MET3 MET4"
     place_opt -congestion -area_recovery -effort $qor_effort -power
+
+    legalize_placement -effort medium
+
+### HFN balanced buffer tree
+    remove_buffer_tree -from [get_nets rst_n]
+    create_buffer_tree -from [get_nets rst_n]
+
+### Place OPT for HFN nets
+    remove_ideal_network [get_nets rst_n]
+    compile_clock_tree -high_fanout_net [get_nets rst_n]
 
 # idel network reporting
     report_timing
